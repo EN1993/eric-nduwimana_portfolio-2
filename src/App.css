@@ -17,6 +17,10 @@ body {
     Verdana, Geneva, Tahoma, sans-serif;
 }
 
+.navbar-brand {
+  font-size: 30px;
+}
+
 .nav-link {
   color: white;
   font-size: 19px;
@@ -25,7 +29,7 @@ body {
 .footerWrapper {
   min-height: 80px;
   background: rgb(64, 64, 183);
-  position: relative;
+  position: fixed;
   bottom: 0;
   width: 100%;
   display: flex;
@@ -61,8 +65,13 @@ body {
   flex-flow: column;
 }
 
+.card-img,
+.card-img-top {
+  margin-bottom: 30px;
+}
+
 .footerDiv {
-  margin-top: 5em;
+  margin-top: 10em;
 }
 
 @media (min-width: 1000px) {
@@ -72,6 +81,6 @@ body {
   }
 
   .footerWrapper {
-    position: absolute;
+    /* position: absolute; */
   }
 }

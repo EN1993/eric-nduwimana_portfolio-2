@@ -3,7 +3,6 @@ import logo from "./logo.svg";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 // import your route components too
 import "./App.css";
-import "./index.css";
 import Portfolio from "./components/home/Index";
 import Navigation from "./components/layout/Navbar";
 
