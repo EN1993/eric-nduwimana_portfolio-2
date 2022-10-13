@@ -1,9 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Hepta+Slab:wght@200;300;400;700&family=Lato:wght@300;400&family=Spline+Sans+Mono:ital,wght@0,300;0,400;0,600;1,300&display=swap");
+
+html,
+body {
+  height: 100%;
+}
+
+main {
+  flex-grow: 1;
+}
+
+body {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  font-family: "Hepta Slab", serif, cursive, "Times New Roman", Times, serif,
+    Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.nav-link {
+  color: white;
+  font-size: 19px;
+}
+
 .footerWrapper {
   min-height: 80px;
-  text-align: center;
+  background: rgb(64, 64, 183);
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 19px;
 }
 
 .homeH1 {
   margin: 25px auto;
   text-align: center;
+}
+
+.card-group > .card {
+  flex: 1 0 0%;
+  margin-bottom: 0;
+  margin: 15px;
+  border: 2px solid var(--bs-border-color-translucent);
+}
+
+.card-group > .card + .card {
+  margin-left: 15px;
+  border-left: 2px solid var(--bs-border-color-translucent);
+}
+
+.card-title {
+  text-align: center;
+  font-weight: bold;
+}
+.card-group {
+  display: flex;
+  flex-flow: column;
+}
+
+.footerDiv {
+  margin-top: 5em;
+}
+
+@media (min-width: 1000px) {
+  .card-group {
+    display: flex;
+    flex-flow: row wrap;
+  }
+
+  .footerWrapper {
+    position: absolute;
+  }
 }
