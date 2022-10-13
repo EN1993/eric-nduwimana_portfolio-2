@@ -28,7 +28,6 @@ body {
 
 .footerWrapper {
   min-height: 80px;
-  background: rgb(64, 64, 183);
   position: fixed;
   bottom: 0;
   width: 100%;

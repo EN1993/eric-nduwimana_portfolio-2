@@ -3,7 +3,6 @@ import CardGroup from "react-bootstrap/CardGroup";
 import image1 from "../images/project-exam2Pic.jpg";
 import image2 from "../images/js-frameworks-ca-pic.jpg";
 import image3 from "../images/semeste-project2Pic.jpg";
-import { Link } from "react-router-dom";
 
 function CardsGroup() {
   return (

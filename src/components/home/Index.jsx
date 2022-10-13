@@ -1,5 +1,5 @@
 import React from "react";
-import { Card, Container } from "react-bootstrap";
+import { Container } from "react-bootstrap";
 import Footer from "../layout/footer/Footer";
 import Heading from "../heading/Heading";
 import CardsGroup from "./CardsGroup";
